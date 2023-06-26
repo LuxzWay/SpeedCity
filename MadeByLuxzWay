@@ -1,0 +1,377 @@
+-- Made By LuxzWay
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ValueButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local ValueFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local AutoFarmFrame = Instance.new("Frame")
+local AutoFarmButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local AutoFarmButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.310312212, 0, 0.239776939, 0)
+Frame.Size = UDim2.new(0, 400, 0, 280)
+
+ValueButton.Name = "ValueButton"
+ValueButton.Parent = Frame
+ValueButton.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+ValueButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ValueButton.BorderSizePixel = 0
+ValueButton.Position = UDim2.new(0.0500000007, 0, 0.0714285746, 0)
+ValueButton.Size = UDim2.new(0, 100, 0, 50)
+ValueButton.Font = Enum.Font.Arial
+ValueButton.Text = "Value's"
+ValueButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ValueButton.TextSize = 20.000
+ValueButton.TextWrapped = true
+
+UICorner.Parent = ValueButton
+
+ValueFrame.Name = "ValueFrame"
+ValueFrame.Parent = Frame
+ValueFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ValueFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ValueFrame.BorderSizePixel = 0
+ValueFrame.Position = UDim2.new(0.0500000007, 0, 0.321428567, 0)
+ValueFrame.Size = UDim2.new(0, 358, 0, 170)
+ValueFrame.Visible = false
+
+TextLabel.Parent = ValueFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 360, 0, 170)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "1. Del [Value: 12]\\n2. Frost/Dark [Value: 8]\\n3. Gift [Value: 7]\\n4. Fancy [Value: 5.5]\\n5. Ginger [Value: 5]\\n6. Catching [Value: 4.5]\\n7. Bells [Value: 4.5]\\n8. Rainbow [Value: 4]\\n9. Og [Value: 3.5]\\n10. Shiny [Value: 3]\\n11. Flake [Value: 2]\\n12. Wreath [Value: 1.6]\\n13. 2020 [Value: 1]\\n14. Palm [Value: 0.5]\\n15. Rich [Value: 0.2]\\n16. UFO [Value: 0.1]"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+AutoFarmFrame.Name = "AutoFarmFrame"
+AutoFarmFrame.Parent = Frame
+AutoFarmFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+AutoFarmFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarmFrame.BorderSizePixel = 0
+AutoFarmFrame.Position = UDim2.new(0.0500000007, 0, 0.321428567, 0)
+AutoFarmFrame.Size = UDim2.new(0, 358, 0, 170)
+AutoFarmFrame.Visible = false
+
+AutoFarmButton.Name = "AutoFarmButton"
+AutoFarmButton.Parent = AutoFarmFrame
+AutoFarmButton.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+AutoFarmButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarmButton.BorderSizePixel = 0
+AutoFarmButton.Position = UDim2.new(0.335195541, 0, 0.0882352889, 0)
+AutoFarmButton.Size = UDim2.new(0, 120, 0, 50)
+AutoFarmButton.Font = Enum.Font.Arial
+AutoFarmButton.Text = "AutoFarm"
+AutoFarmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarmButton.TextSize = 20.000
+AutoFarmButton.TextWrapped = true
+
+UICorner_2.Parent = AutoFarmButton
+
+AutoFarmButton_2.Name = "AutoFarmButton"
+AutoFarmButton_2.Parent = Frame
+AutoFarmButton_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+AutoFarmButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarmButton_2.BorderSizePixel = 0
+AutoFarmButton_2.Position = UDim2.new(0.699999988, 0, 0.0714285746, 0)
+AutoFarmButton_2.Size = UDim2.new(0, 100, 0, 50)
+AutoFarmButton_2.Font = Enum.Font.Arial
+AutoFarmButton_2.Text = "AutoFarm"
+AutoFarmButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarmButton_2.TextSize = 20.000
+AutoFarmButton_2.TextWrapped = true
+
+UICorner_3.Parent = AutoFarmButton_2
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.370000005, 0, 0.0714285746, 0)
+TextLabel_2.Size = UDim2.new(0, 103, 0, 51)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Speed City Script Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function WHSOCXB_fake_script() -- ValueButton.LocalScript 
+	local script = Instance.new('LocalScript', ValueButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ValueFrame.Visible = true
+		script.Parent.Parent.AutoFarmFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(WHSOCXB_fake_script)()
+local function DENN_fake_script() -- AutoFarmButton.LocalScript 
+	local script = Instance.new('LocalScript', AutoFarmButton)
+
+	AutoFarmButton.MouseButton1Click:Connent (function()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		local Window = Library.CreateLib("Speed City Farming 2.0", "BloodTheme")
+		local Tab1 = Window:NewTab("Ghost City")
+		local Tab3 = Window:NewTab("Trillionaire City")
+		local Tab2 = Window:NewTab("Misc")
+		local Tab4 = Window:NewTab("Credits")
+		local Section4 = Tab1:NewSection("Orb Farm")
+		local Section5 = Tab1:NewSection("Crate Farm")
+		local Section6 = Tab1:NewSection("Required Achievement Crate Farm")
+		local Section8 = Tab2:NewSection("Teleports")
+		local Section9 = Tab2:NewSection("Extra")
+		local Section10 = Tab3:NewSection("Farming (Section created for Caleb Gray on Youtube)")
+		local Section11 = Tab4:NewSection("xHeptc - most of scripting + UI")
+		local Section12 = Tab4:NewSection("Counter#2747 - scripted brand new features")
+		Section10:NewLabel("You must have Trillionaire City unlocked.")
+	
+	
+		Section9:NewButton("Claim Cloud Trail", "TP to Cloud Trail", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3, 659, 0)
+		end)
+	
+	
+		Section4:NewToggle("White Orbs", "Teleports You To The White Orbs", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("GhostMega") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega.GhostMega.Outside.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section4:NewToggle("Black Orbs", "Teleports You To The Black Orbs", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("GhostMega2") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega.GhostMega2.Outside.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section6:NewToggle("Happy Ghost", "Teleports You To The Happy Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("Happy") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega.Happy.Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+	
+		Section6:NewToggle("King Ghost", "Teleports You To The King Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("King Ghost") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega["King Ghost"].Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section5:NewToggle("Sad Ghost", "Teleports You To The Happy Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("Sad") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega["Sad"].Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section5:NewToggle("Angry Ghost", "Teleports You To The Angry Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("Angry") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega["Angry"].Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+	
+	
+		Section5:NewToggle("Scared Ghost", "Teleports You To The Happy Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("Scared") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega["Scared"].Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section5:NewToggle("Surprised Ghost", "Teleports You To The Happy Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("Surprised") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega["Surprised"].Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section6:NewToggle("Zombie Ghost", "Teleports You To The Zombie Ghost Crate", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").GhostCity.GhostOrbsMega:FindFirstChild("Zombie Ghost") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").GhostCity.GhostOrbsMega["Zombie Ghost"].Crate.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+		Section8:NewButton("Main Map", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 30.9980049, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		end)
+	
+		Section8:NewButton("Winter", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4680.05566, 1799.30164, -2813.43042, 0.998682499, 2.74817302e-09, -0.0513154939, -5.44843948e-09, 1, -5.24809955e-08, 0.0513154939, 5.26914405e-08, 0.998682499)
+		end)
+	
+		Section8:NewButton("Original Map", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2388, 2742.4978, 390, 1, -2.66421161e-08, -1.13693065e-14, 2.66421161e-08, 1, 3.76773457e-08, 1.03655022e-14, -3.76773457e-08, 1)
+		end)
+	
+		Section8:NewButton("Volcano", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1270, 258.594482, 2022, 1, 9.16371476e-08, -9.85315311e-15, -9.16371476e-08, 1, -3.53292471e-08, 6.61568138e-15, 3.53292471e-08, 1)
+		end)
+	
+		Section8:NewButton("Beach", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3624.00562, 67.7395248, 1018.45709, 0.999986172, 3.45591729e-07, 0.00525691034, -3.44176954e-07, 1, -2.70028011e-07, -0.00525691034, 2.6821499e-07, 0.999986172)
+		end)
+	
+		Section8:NewButton("Ghost City", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3825.7041, -33.801918, 7304.7002, 1, 4.6416046e-10, -4.94060366e-08, -4.64160321e-10, 1, 2.74975531e-09, 4.94060366e-08, -2.74975531e-09, 1)
+		end)
+	
+		Section8:NewButton("TrillionaireCity", "Teleports You!", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1900, 99, 6270)
+		end)
+	
+		Section10:NewToggle("Farm Orbs", "Teleports You To All Orbs", function(state)
+			if state then
+				getgenv().Farming1 = true
+				while Farming1 == true do
+					if game:GetService("Workspace").TrillionaireCity.TrillionaireOrbs:FindFirstChild("Trillionaire") then 
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").TrillionaireCity.TrillionaireOrbs.Trillionaire.Outside.Position)
+					end
+					wait()
+				end
+			else
+				getgenv().Farming1 = false
+			end
+		end)
+	
+	end)
+end
+coroutine.wrap(DENN_fake_script)()
+local function QVMYVYB_fake_script() -- AutoFarmButton_2.LocalScript 
+	local script = Instance.new('LocalScript', AutoFarmButton_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ValueFrame.Visible = false
+		script.Parent.Parent.AutoFarmFrame.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(QVMYVYB_fake_script)()
+local function JYGKX_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(JYGKX_fake_script)()
